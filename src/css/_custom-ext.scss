@@ -25,6 +25,8 @@
 
 body {
 
+  font-family: FranklinGothicURW-Boo;
+
   .control-menu {
     background-color: white;
     background-image: none;
@@ -33,6 +35,21 @@ body {
 
     .control-menu-level-1-heading {
       color: $skolverket-purple;
+    }
+
+  }
+
+  .control-menu-nav {
+
+    a {
+      border-left-color: $skolverket-purple;
+    }
+
+    .toast-animation {
+      .pm,
+      .cn {
+        border-color: $skolverket-purple;
+      }
     }
 
   }
@@ -65,5 +82,11 @@ body {
     }
   }
 
+  .control-label .lexicon-icon-asterisk,
+  .lexicon-icon-asterisk {
+    color: #333;
+    height: 7px;
+    width: 7px;
+  }
 
 }
