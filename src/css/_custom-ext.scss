@@ -1,0 +1,69 @@
+.btn-primary {
+  color: white;
+  border-radius: 0;
+
+  &:focus,
+  &:hover {
+  }
+}
+
+.btn-lg,
+.btn-group-lg>.btn {
+  border-radius: 0;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .btn-lg,
+  .btn-group-lg>.btn {
+    border-radius: 0;
+  }
+
+
+}
+
+body {
+
+  .control-menu {
+    background-color: white;
+    background-image: none;
+    border-top: 6px solid $skolverket-purple;
+    color: $skolverket-purple;
+
+    .control-menu-level-1-heading {
+      color: $skolverket-purple;
+    }
+
+  }
+
+  .product-menu {
+
+    .company-details {
+
+      .company-logo {
+        max-width: auto;
+      }
+
+      .company-name {
+        display: none;
+      }
+
+    }
+
+    .sidebar-header {
+      background-color: white;
+      border-bottom: 1px solid white;
+      color: $skolverket-purple;
+    }
+  }
+
+  .lfr-form-row {
+    &:hover {
+      background-color: transparent;
+      border-color: transparent;
+    }
+  }
+
+
+}
