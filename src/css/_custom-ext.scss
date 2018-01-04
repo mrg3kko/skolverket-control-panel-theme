@@ -95,8 +95,24 @@ body {
     #roles,
     #sites,
     #userGroups,
-    #displaySettings {
+    #displaySettings,
+    #organizations,
+    #categorization {
       display: none;
+    }
+
+    .nav-tabs {
+
+      display: none;
+
+      > li {
+        display: none;
+
+        &:first-child {
+          display: block;
+        }
+      }
+
     }
 
   }
