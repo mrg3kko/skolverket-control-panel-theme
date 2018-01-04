@@ -90,4 +90,15 @@ body {
     width: 7px;
   }
 
+  #portlet_com_liferay_my_account_web_portlet_MyAccountPortlet {
+
+    #roles,
+    #sites,
+    #userGroups,
+    #displaySettings {
+      display: none;
+    }
+
+  }
+
 }
